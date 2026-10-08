@@ -18,7 +18,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Jair Souza Viana
 - João Pedro Silva Cruz
 - Kauan Fillipe da Silva Rodrigues
-- Lara Rayane Cruz Ferreira
+- Lara Rayane Cruz Ferreira [@lara-19] (https://github.com/lara-19)
 - Luana de Morais Silva
 - Luís Gustavo Arriel de Melo [@luisarriel](https://github.com/luisarriel)
 - Luiz Eduardo Bezerra de Jesus
