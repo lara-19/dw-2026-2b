@@ -10,4 +10,15 @@ $usuario = mysqli_fetch_assoc($resultado);
 echo $usuario["username"];
 echo $usuario["nome"];
 echo $usuario["email"];
+
+$sql = "SELECT * FROM postagem WHERE idusuario = 1";
+$resultado = mysqli_query($conexao, $sql);
+
+echo "<h2>Postagens do usuário</h2>";
+
+while ($postagem = mysqli_fetch_assoc($resultado)) {
+    echo $postagem["texto"];
+    echo "<br>";
+}
+
 ?>
