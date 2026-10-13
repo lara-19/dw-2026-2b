@@ -1,9 +1,13 @@
 <?php
-session_start();
+$conexao = mysqli_connect("localhost", "root", "", "meu_banco");
 
-// Verifica se o usuário está logado
-if (!isset($_SESSION['id_usuario'])) {
-    header("Location: principal.php");
-    exit();
-}
+$sql = "SELECT * FROM usuarios WHERE id = 1";
+
+$resultado = mysqli_query($conexao, $sql);
+
+$usuario = mysqli_fetch_assoc($resultado);
+
+echo $usuario["nome"];
+echo "<br>";
+echo $usuario["email"];
 ?>
