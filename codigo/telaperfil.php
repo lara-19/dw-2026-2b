@@ -1,7 +1,7 @@
 <?php
 $conexao = mysqli_connect('db', 'root', '123', 'banco_rede_social');
 
-$sql = "SELECT * FROM usuarios WHERE id = 1";
+$sql = "SELECT * FROM usuario WHERE idusuario = 1";
 
 $resultado = mysqli_query($conexao, $sql);
 
