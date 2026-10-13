@@ -14,7 +14,7 @@ Possui a documentação do banco. Contém relacionamentos `n:n`.
 - Gabryel Vieira Passos [@Vieiraxz](https://github.com/Vieiraxz)
 - Giulia Luiza Rufino Moraes Vieira
 - Guilherme Antonio Oliveira Silva
-- Isabella Moreira Marçal
+- Isabella Moreira Marçal[@isamoreira988](https//:github.com/isamoreira988)
 - Jair Souza Viana
 - João Pedro Silva Cruz
 - Kauan Fillipe da Silva Rodrigues
