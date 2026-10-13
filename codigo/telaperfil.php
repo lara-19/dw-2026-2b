@@ -1,5 +1,5 @@
 <?php
-$conexao = mysqli_connect("db", "root", "123", "banco_rede_social");
+$conexao = mysqli_connect('db', 'root', '123', 'banco_rede_social');
 
 $sql = "SELECT * FROM usuarios WHERE id = 1";
 
