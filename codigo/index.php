@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="perfil.css">
 </head>
 <body>
+    <h1>Seja Bem-Vindos</h1>
     <form action="verificar_login.php" method="post">
         E-mail: <br>
         <input type="text" name="email"> <br>
