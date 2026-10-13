@@ -7,7 +7,7 @@ $resultado = mysqli_query($conexao, $sql);
 
 $usuario = mysqli_fetch_assoc($resultado);
 
+echo $usuario["username"];
 echo $usuario["nome"];
-echo "<br>";
 echo $usuario["email"];
 ?>
