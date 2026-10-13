@@ -7,5 +7,7 @@
 </head>
 <body>
     <a href="form_postagem.php">Fazer nova postagem</a>
+    <br>
+    <a href="telaperfil.php">Acessar meu perfil</a>
 </body>
 </html>
