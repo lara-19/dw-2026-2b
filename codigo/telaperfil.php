@@ -10,4 +10,6 @@ $usuario = mysqli_fetch_assoc($resultado);
 echo $usuario["username"];
 echo $usuario["nome"];
 echo $usuario["email"];
-?>
+
+ ?>
+
