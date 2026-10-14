@@ -3,3 +3,12 @@
   align-items: center;
   min-height: 100vh;
 }
+.seguir {
+  padding: 10px 28px;
+  border: 2px solid #1f5705;
+  border-radius: 999px;
+  background: #f01d1d;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
