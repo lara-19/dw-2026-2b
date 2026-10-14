@@ -25,6 +25,7 @@ echo $usuario["nome"];
 echo $usuario["email"];
 
 
+
 // Contar seguidores
 $sql = "SELECT COUNT(*) AS total FROM seguir WHERE idseguindo = 1";
 $resultado = mysqli_query($conexao, $sql);
@@ -50,7 +51,6 @@ while ($postagem = mysqli_fetch_assoc($resultado)) {
     echo $postagem["texto"];
     echo "<br>";
 }
-
  ?>
 
 </body>

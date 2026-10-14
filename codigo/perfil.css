@@ -15,7 +15,7 @@
 
 body {
 
-  background-color: black;
+  background-color: white
   color:#fff
   font-style: arial, sans-serif;
   margin:0;
@@ -38,21 +38,20 @@ h1{
   padding: 15px;
 
 }
-.foto-perfil{
+.foto-perfil {
   width: 80px;
   height: 80px;
   border-radius: 50%;
   object-fit: cover;
 }
 
-.stats { 
+{ 
   display: flex;
-  gap: 20px;
-  text-align: center;
-  font-size: 14px;
+  gap: 25px;
+  
 
 }
-.stats strong {
+.infos div,{
 
   display: flex;
   fon-size: 16px;
