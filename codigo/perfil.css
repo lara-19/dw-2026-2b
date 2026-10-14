@@ -1,7 +1,5 @@
-h1 {
-  color: navy;
-  margin-left: 20px;
+.container {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-
-
-pedro sampaio vai 
