@@ -31,14 +31,16 @@ $sql = "SELECT COUNT(*) AS total FROM seguir WHERE idseguindo = 1";
 $resultado = mysqli_query($conexao, $sql);
 $seguidores = mysqli_fetch_array($resultado);
 
-echo "<p>Seguidores: {$seguidores['total']}</p>";
+echo "<h2>Seguidores</h2>";
+echo "<p>" . $seguidores['total'] . "</p>";
 
 // Contar pessoas seguindo
 $sql = "SELECT COUNT(*) AS total FROM seguir WHERE idseguidor = 1";
 $resultado = mysqli_query($conexao, $sql);
 $seguindo = mysqli_fetch_array($resultado);
 
-echo "<p>Seguindo: {$seguindo['total']}</p>";
+echo "<h2>Seguindo</h2>";
+echo "<p>" . $seguindo['total'] . "</p>";
 
 
 
