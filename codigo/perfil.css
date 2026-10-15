@@ -1,3 +1,7 @@
+p {
+  border-style: solid;
+}
+
 .container {
   justify-content: center;
   align-items: center;
@@ -26,9 +30,9 @@ body {
 h1{
 
   text-align: center;
-  font-size: 16px;
-  padding: 15px;
-  border-bottom: 1px solid;
+  font-size: 30px;
+  padding: 25px;
+  ;
 
 }
 .perfil-topo {
@@ -89,6 +93,13 @@ h1{
   text-align: center;
   font-size:12px;
 }
-
-
+input {
+  width: 80%;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
 
