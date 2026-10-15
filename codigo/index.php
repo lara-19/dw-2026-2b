@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="perfil.css">
 </head>
 <body>
-    <h1>Seja Bem-Vindos</h1>
+    <h1>Seja Bem-Vindo</h1>
     <form action="verificar_login.php" method="post">
         E-mail: <br>
         <input type="text" name="email"> <br>
