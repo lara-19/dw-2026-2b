@@ -20,8 +20,13 @@ $resultado = mysqli_query($conexao, $sql);
 
 $usuario = mysqli_fetch_array($resultado);
 
+echo "<h2>Nome De Usuario</h2>";
 echo "<p class=''>" . $usuario["username"] . "</p>";
+
+echo "<h2>Nome:</h2>";
 echo "<p id='' class=''>" . $usuario["nome"] . "</p>";
+
+echo "<h2>Email:</h2>";
 echo "<div>" . $usuario["email"] . "</div>";
 
 
@@ -50,8 +55,10 @@ $resultado = mysqli_query($conexao, $sql);
 echo "<h2>Postagens do usuário</h2>";
 
 while ($postagem = mysqli_fetch_array($resultado)) {
+    echo  "<div id='postagem'>";
     echo $postagem["texto"];
     echo "<br>";
+    echo "</div>";
 }
  ?>
 
